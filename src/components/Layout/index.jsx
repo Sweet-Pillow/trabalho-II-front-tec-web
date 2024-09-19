@@ -49,7 +49,7 @@ export default function Layout() {
       <header className="flex justify-between items-center p-5 pr-7 h-[90px] shadow-lg border-b w-full bg-gradient-to-r from-green-50 to-green-100 fixed top-0 z-10">
         <div className="flex items-center space-x-2">
           {/* Logo Icon */}
-          <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
+          {/* <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -64,16 +64,16 @@ export default function Layout() {
                 d="M12 3v18m9-9H3"
               />
             </svg>
-          </div>
+          </div> */}
 
           {/* Logo Title */}
-          <Link
+          {/* <Link
             to="/home"
             className="text-3xl font-bold text-gray-800 tracking-tight"
           >
             <span className="text-green-600">Code</span>
             <span className="text-gray-700">Sphere</span>
-          </Link>
+          </Link> */}
         </div>
 
         <div className="flex items-center gap-4">
@@ -101,7 +101,7 @@ export default function Layout() {
 
       <main className="flex flex-row w-full">
         <nav className="w-1/6 h-full bg-green-100 border-r-2 border-gray-300 fixed top-[90px] flex flex-col justify-between">
-          <ul className="space-y-4 p-4">
+          {/* <ul className="space-y-4 p-4">
             <li>
               <NavLink
                 to="/profile"
@@ -135,7 +135,7 @@ export default function Layout() {
                 <FiLogOut className="mr-2" /> Sair
               </button>
             </li>
-          </ul>
+          </ul> */}
         </nav>
         <div className="w-full ml-[16.6667%] mt-[90px] overflow-auto bg-white p-8">
           <Outlet />
