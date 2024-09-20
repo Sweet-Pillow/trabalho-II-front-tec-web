@@ -8,6 +8,7 @@ import Layout from "./components/Layout/index";
 import Redirect from "./pages/Redirect";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
             {
                 path: "/*",
                 element: <Redirect />,
+            },
+            {
+                path: "/home",
+                element: <Home />,
             }
         ],
     },
